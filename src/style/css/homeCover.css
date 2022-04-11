@@ -1,0 +1,157 @@
+section{
+    padding: 50px 80px
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #111;
+}
+/* .home:before{
+    z-index: 777;
+    content: '';
+    position: absolute;
+    background: rgba(3, 96, 251, 0.5);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+} */
+
+.video {
+    z-index: 000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100% ;
+    object-fit: cover;
+    opacity: 0.8;
+    
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #03a9f4;
+    /* background:#66ccff; */
+    mix-blend-mode: overlay;
+  }
+
+.content{
+    z-index: 888;
+    color: #fff;
+    /* width: 70%; */
+    margin-top: 50px;
+ 
+    position: relative;
+}
+.content h2
+{
+    font-size: 5em;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1em;
+    margin-bottom: 40px;
+
+}
+.content h3
+{
+  font-size: 4em;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.content p
+{
+  font-size: 1.1em;
+  color: #fff;
+  margin: 20px 0;
+  font-weight: 400;
+  max-width: 700px;
+}
+/* ova za komceto explore */
+.content a
+{
+    background: #fff;
+    padding: 15px 35px;
+    color: #111;
+    font-size: 1.1em;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 2px;
+}
+.content a:hover
+{
+  letter-spacing: 6px;
+}
+
+.media-icons{
+
+    z-index: 888;
+    position: absolute;
+    right: 30px;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s ease;
+
+}
+.media-icons a {
+    color: #fff;
+    font-size: 1.6em;
+}
+
+.media-icons a:not(:last-child) {
+    margin-bottom: 20px;
+
+}
+
+.media-icons a:hover {
+    transform: scale(1.3);
+}
+
+@media (max-width: 1040px){
+    .header {
+        padding: 12px 20px;
+    }
+
+    section{
+        padding: 100px 20px;
+    }
+    .media-icons {
+        right: 15px ;
+    }
+    .content h2 {
+        font-size: 3em;
+
+    }
+    .content h3 {
+        font-size: 2em;
+    }
+}
+
+.kriva_linija{
+    position: absolute;
+    width:101%;
+    left: -10px;
+    z-index: 11;
+    bottom: -19px;
+    display: block;    
+}
+.linija {
+    width: 100%;
+    height: 100%;
+    display: block;    
+}
+    

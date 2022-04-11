@@ -1,0 +1,187 @@
+.image-contact{
+    background-image: url(https://www.anythinklibraries.org/sites/default/files/styles/full/public/event/field_event_image/paper_airplane.jpg?itok=BhrRhzg8);
+    border-top-right-radius: 2.0833333333333335vw;
+    border-bottom-right-radius: 2.0833333333333335vw;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: right center;
+    background-repeat: no-repeat;
+    font: inherit;
+    vertical-align: baseline;
+    min-height: 100vh;
+    top: 100px;
+    right: 15px;
+    box-shadow: 10px 12px 10px #828FA0;
+    margin-bottom: 150px;
+    /* animation: kenburns 15s ease alternate forwards;
+    overflow: auto; */
+
+}
+
+/* @keyframes kenburns{ 
+    0%{
+        transform:scale(1)
+    }
+        100% {transform:scale(1.10) 
+        }
+    }
+ */
+
+.image-contact::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 80%;
+    background: linear-gradient(63.47deg,#f7f7f7 30.6%,rgba(255,255,255,0) 90%);
+}
+
+
+
+
+
+.contact-toppic{
+    position: relative;
+    z-index: 2;
+    width: 60%;   
+    margin-top: 50px;
+}
+
+.contact-toppic h1 {
+    font-size: 2em;
+    font-weight: 500;  
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+.red-toppic{
+    color: #4222DC;  
+}
+
+
+
+.content-form{
+    position: relative;
+    z-index: 2;
+    width: 40%;
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 10px 12px 10px #f7f7f7;
+    display: flex;
+  
+    margin-top: 40px; 
+    hyphens: manual;
+    box-sizing: border-box;
+    min-height: 1px;
+    margin-bottom: 0px;
+    margin-left: -50px;
+    border-radius: 2.0833333333333335vw;
+   
+}
+
+.information-left{
+    display: flex;
+    min-height: 1px;
+    box-sizing: border-box;
+    width: 100%;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+
+}
+
+.contact-form-toppic{
+    position: relative;
+    hyphens: manual;
+    display: block;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    color: #4222DC;
+}
+
+.hr{
+    width: 90%;
+    border-width: 3px;
+    border-color: #e4e4e4;
+    box-shadow: none;
+    border-style: solid;
+  
+    display: block;
+}
+.contact-form-text{
+    position: relative;
+    hyphens: manual;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+.form-control {
+   
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #ced4da;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+
+.form-select{
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #ced4da;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+
+    font-weight: bold;
+    background-color: #4222DC;
+    border: 2px solid #4222DC;
+    cursor: pointer;
+    padding: 20px 40px;
+    border-radius: 100vw;
+    display: inline-flex;
+    outline: 0!important;
+    line-height: 1;
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+
+
+.btn-primary:hover{
+    color: #4222DC;
+    background-color: #fff;
+}
+
+
+
+
+
+
+.justify-content-between{
+    justify-content: space-between!important;
+    -webkit-box-pack: justify!important;
+}
+
+/* .information-right{
+    display: flex;
+    min-height: 1px;
+    box-sizing: border-box;
+    width: 50%;
+    flex-wrap: wrap;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    float: right;
+
+} */
